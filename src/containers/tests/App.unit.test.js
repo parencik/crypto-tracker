@@ -164,7 +164,7 @@ describe('<App />', () => {
       setTimeout(() => {
         appWrapper.update();
         const state = appInstance.state;
-        expect(state.cryptos.length).toBe(2);
+        expect(state.cryptos.length).toBe(3);
         expect(state.isLoading).toBe(false);
 
         done();
